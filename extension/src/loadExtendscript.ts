@@ -2,7 +2,6 @@ import { evalExtendscript, getHostEnvironment, RGBColor } from 'cep-interface'
 import { readFileSync } from 'fs'
 
 // @ts-ignore
-const Buffer = cep_node.Buffer
 const jsxBundle = readFileSync('./dist/index.js').toString()
 evalExtendscript(jsxBundle)
 

@@ -1,6 +1,5 @@
 import 'extendscript-es5-shim-ts'
-
-import console from './console'
+import console from './console';
 
 interface Process {
   env: {
@@ -13,7 +12,6 @@ declare const process: Process
 function showAlert() {
   alert(`Alert from Extendscript.\n${new Date().toString()}`);
 }
-
 console.log('Log from ExtendScript')
 console.warn('Warning from ExtendScript')
 console.error('Error from ExtendScript')
