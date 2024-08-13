@@ -1,5 +1,5 @@
+import * as React from 'react'
 import { useLogger } from "../hooks/useLogger";
-
 
 export default function LogInfo() {
   const { openLog, logMessage, logPath } = useLogger();

@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es3",
+    "jsx": "react",
+    "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
     "noLib": true,

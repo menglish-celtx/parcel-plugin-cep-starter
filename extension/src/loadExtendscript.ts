@@ -1,9 +1,6 @@
-import { evalExtendscript, getHostEnvironment, RGBColor } from 'cep-interface'
-import { readFileSync } from 'fs'
+import { loadExtendscript, getHostEnvironment, RGBColor } from 'cep-interface'
 
-// @ts-ignore
-const jsxBundle = readFileSync('./dist/index.js').toString()
-evalExtendscript(jsxBundle)
+loadExtendscript('index.js');
 
 const host = getHostEnvironment();
 if (host) {
